@@ -1,0 +1,146 @@
+body {
+    background-color: #f3f3f3;
+    font-family: "Arial";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 17px; 
+}
+
+.container {
+    background-color: #fff;
+}
+
+.main {
+    padding: 15px 0;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #5a5a5a;
+    padding-left: 7px;
+}
+
+.logo b {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #39930d;
+    font-weight: bold;
+    display: block;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    column-gap: 29px;
+}
+
+.graphic {
+    padding-right: 10px;
+}
+
+.phone {
+    padding-right: 3px;
+}
+
+.working p, .number p {
+    font-size: 14px;
+    color: #5a5a5a;
+    font-weight: bold;
+    text-align: right;
+}
+
+.numer {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+.picture_img {
+    display:flex;
+    column-gap: 10px;
+}
+
+.picture-img img {
+    width: 100%;
+}
+
+.picture_img {
+    padding-top: 10px;
+}
+
+.table-information {
+    padding-top: 31px;
+    padding-bottom: 28px;
+}
+
+.table {
+    min-width: 300px;
+}
+
+.football-partners {
+    background-color: #39930d;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    padding: 14px 19px;
+}
+
+.footballer {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #343434;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.about_football {
+    font-size: 24px;
+    color: #39930d;
+}
+
+.about-football {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+    padding-top: 17px;
+}
+.about-football p {
+    margin-bottom: 18px;
+}
+
+.information {
+    max-width: 611px;
+}
+
+.footer {
+    background-color: #39930d;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.foter {
+    column-gap: 11px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.items-center {
+    align-items: center;
+}
