@@ -60,6 +60,14 @@ body {
     text-align: right;
 }
 
+.number a {
+    transition: 1s ease;
+}
+
+.number a:hover {
+    color: #39930d;
+}
+
 .numer {
     text-decoration: none;
     color: #5a5a5a;
@@ -97,14 +105,23 @@ body {
 }
 
 .footballer {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.a-football {
     font-size: 14px;
     line-height: 30px;
     text-decoration: underline;
     text-transform: uppercase;
     color: #343434;
-    list-style: none;
-    padding-left: 20px;
-    padding-top: 15px;
+    font-family: "Arial";
+    transition: 1s ease;
+}
+
+.a-football:hover {
+    color: #39930d;
 }
 
 .about_football {
