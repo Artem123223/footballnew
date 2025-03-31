@@ -10,20 +10,20 @@ body {
   font-family: "Arial";
 }
 .wrapper {
-  max-width: 960px;
+  max-width: 960rem;
   margin: 0 auto;
-  padding: 0 17px;
+  padding: 0 17rem;
 }
 .container {
   background-color: #fff;
 }
 .main {
-  padding: 15px 0;
+  padding: 15rem 0;
 }
 .logo p {
   font-size: 14rem;
   color: #5a5a5a;
-  padding-left: 7px;
+  padding-left: 7rem;
 }
 .logo b {
   font-size: 24rem;
@@ -38,13 +38,13 @@ body {
   flex-wrap: wrap;
 }
 .contacts {
-  column-gap: 29px;
+  column-gap: 29rem;
 }
 .graphic {
-  padding-right: 10px;
+  padding-right: 10rem;
 }
 .phone {
-  padding-right: 3px;
+  padding-right: 3rem;
 }
 .working p,
 .number p {
@@ -65,18 +65,11 @@ body {
 }
 .picture_img {
   display: flex;
-  column-gap: 10px;
+  column-gap: 10rem;
 }
 .picture-img > img {
   width: 100%;
-  min-height: 200px;
-  object-fit: cover;
-  object-position: 75%;
-  vertical-align: bottom;
-}
-.imgs > p > img {
-  width: 100%;
-  min-height: 120px;
+  min-height: 200rem;
   object-fit: cover;
   object-position: 75%;
   vertical-align: bottom;
@@ -85,11 +78,11 @@ body {
   padding-top: 10rem;
 }
 .table-information {
-  padding-top: 31px;
-  padding-bottom: 28px;
+  padding-top: 31rem;
+  padding-bottom: 28rem;
 }
 .table {
-  min-width: 300px;
+  min-width: 300rem;
 }
 .football-partners {
   background-color: #39930d;
