@@ -82,8 +82,7 @@ body {
 }
 .imgs img,
 .imgs p {
-  width: 100%;
-  min-height: 120px;
+  max-height: 120px;
 }
 .table-information {
   padding-top: 31rem;
@@ -159,12 +158,21 @@ body {
     width: 100%;
   }
 }
+@media screen and (min-width: 400px) {
+  .imgs img,
+  .imgs p {
+    width: 100%;
+    max-height: 150rem;
+  }
+}
+@media screen and (min-width: 320px) {
+  .footer {
+    justify-content: space-between;
+  }
+}
 @media screen and (min-width: 520px) {
   .flex-between {
       justify-content: space-between;
-  }
-  .main {
-      flex-wrap: nowrap;
   }
 } 
 @media screen and (min-width: 768px) {
