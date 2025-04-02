@@ -21,7 +21,7 @@ body {
   padding: 15rem 0;
 }
 .logo p {
-  font-size: 14rem;
+  font-size: 18rem;
   color: #5a5a5a;
   padding-left: 7rem;
 }
@@ -31,6 +31,9 @@ body {
   color: #39930d;
   font-weight: bold;
   display: block;
+}
+.logo img {
+  min-width: 50rem;
 }
 .flex-between {
   display: flex;
@@ -77,20 +80,19 @@ body {
 .picture_img {
   padding-top: 10rem;
 }
-.imgs img {
+.imgs img,
+.imgs p {
   width: 100%;
-  max-height: 120px;
-  gap: 10px;
-  object-fit: cover;
-  object-position: 75%;
-  vertical-align: bottom;
+  min-height: 120px;
 }
 .table-information {
   padding-top: 31rem;
   padding-bottom: 28rem;
+  gap: 10px;
 }
 .table {
   min-width: 300rem;
+  width: 100%;
 }
 .football-partners {
   background-color: #39930d;
@@ -148,7 +150,7 @@ body {
 .items-center {
   align-items: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
   .picture_img {
     align-items: center;
     gap: 10px;
@@ -164,15 +166,12 @@ body {
   .main {
       flex-wrap: nowrap;
   }
-}
+} 
 @media screen and (min-width: 768px) {
   html {
     font-size: 1px;
   }
   .table {
-    width: 100%;
-  }
-  .imgs p {
     width: 100%;
   }
 }
@@ -182,9 +181,6 @@ body {
   }
   .flex-between {
     flex-wrap: nowrap;
-  }
-  .information {
-    padding-left: 18px; 
   }
   .imgs img {
     max-height: 140px;
