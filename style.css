@@ -153,7 +153,7 @@ body {
   align-items: center;
   gap: 10px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 487px) {
   .picture_img {
     align-items: center;
     gap: 10px;
